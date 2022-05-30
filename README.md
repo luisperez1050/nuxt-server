@@ -2,6 +2,11 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## Github Pages
+```
+https://luisperez1050.github.io/nuxt-server/
+```
+
 ## Setup
 
 Make sure to install the dependencies:
