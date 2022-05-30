@@ -2,9 +2,9 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-## Github Pages
+## Layer0 deployment link
 ```
-https://luisperez1050.github.io/nuxt-server/
+https://luis-nitro-app-default.layer0-limelight.link/
 ```
 
 ## Setup

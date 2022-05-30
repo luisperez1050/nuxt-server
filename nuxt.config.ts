@@ -5,5 +5,8 @@ export default defineNuxtConfig({
     target: 'static',
     router: {
         base: '/nuxt-server/'
-    }
+    },
+    nitro: {
+        preset: 'layer0'
+    },
 })
