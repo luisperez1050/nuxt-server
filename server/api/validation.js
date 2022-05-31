@@ -2,6 +2,7 @@ import { useBody } from 'h3';
 import { HtmlValidate } from 'html-validate-es';
 import { formatterFactory } from 'html-validate';
 export default defineEventHandler( async (req, res) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
     const body = await useBody(req);
     const validateHtml = new HtmlValidate();
     const validate = validateHtml.validateString(body);
