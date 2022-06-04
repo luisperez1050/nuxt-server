@@ -7,6 +7,6 @@ export default defineNuxtConfig({
         base: '/nuxt-server/'
     },
     nitro: {
-        preset: 'layer0'
+        plugins: ['~/server/plugins/cors']
     },
 })
