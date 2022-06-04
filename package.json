@@ -5,7 +5,7 @@
     "dev": "PORT=8000 nuxi dev",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
-    "start": "PORT=80 HOST=0.0.0.0 node .output/server/index.mjs",
+    "start": "node .output/server/index.mjs",
     "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
