@@ -1,15 +1,18 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "PORT=8000 nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "build": "nuxi build",
+    "dev": "PORT=8000 nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "start": "node .output/server/index.mjs",
+    "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "html-validate": "^7.1.1",
     "html-validate-es": "^0.2.0"
   }
